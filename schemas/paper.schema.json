@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/research-harness/paper.schema.json",
+  "title": "Paper",
+  "type": "object",
+  "required": ["id", "title", "source"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^PAPER-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "year": {
+      "type": ["integer", "null"],
+      "minimum": 1600,
+      "maximum": 2200
+    },
+    "venue": {
+      "type": ["string", "null"]
+    },
+    "doi": {
+      "type": ["string", "null"]
+    },
+    "url": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": "string",
+      "enum": ["manual", "openalex", "arxiv", "semantic_scholar", "crossref", "pubmed", "pdf"]
+    },
+    "abstract": {
+      "type": ["string", "null"]
+    },
+    "role": {
+      "type": "string",
+      "enum": ["unknown", "foundational", "competitor", "supporting", "contradictory", "method", "dataset", "benchmark"],
+      "default": "unknown"
+    },
+    "core_claims": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "methods": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "datasets": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "metrics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "findings": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "limitations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "relevance_confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "default": "low"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/research-harness/claim.schema.json",
+  "title": "Claim",
+  "type": "object",
+  "required": ["id", "text", "type", "status", "confidence"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^CLAIM-[0-9]{4}$"
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["empirical", "methodological", "theoretical", "engineering", "limitation"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "supported", "weakened", "contradicted", "rejected"]
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "counterevidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "source_paper_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "open_questions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    }
+  }
+}

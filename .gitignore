@@ -1,0 +1,52 @@
+# Secrets and local identity
+.env
+.env.*
+!.env.example
+auth.json
+*.key
+*.pem
+*.p12
+*.pfx
+.hermes/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node and tool caches
+node_modules/
+.cache/
+.tmp/
+tmp/
+
+# Local generated paper assets
+papers/inbox/*
+!papers/inbox/.gitkeep
+papers/processed/*
+!papers/processed/.gitkeep
+
+# Generated data snapshots
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Large or derived artifacts
+*.pdf
+*.epub
+*.docx
+*.pptx
+*.xlsx
+*.sqlite
+*.db
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

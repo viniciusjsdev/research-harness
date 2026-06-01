@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/research-harness/idea.schema.json",
+  "title": "ResearchIdea",
+  "type": "object",
+  "required": ["id", "title", "status", "research_question", "hypothesis", "created_at"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^IDEA-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "active", "paused", "rejected", "completed"]
+    },
+    "domain": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "research_question": {
+      "type": "string"
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "methods": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "datasets": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "metrics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "novelty_risks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "minimum_viable_experiments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "open_questions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/research-harness/comparison.schema.json",
+  "title": "PaperComparison",
+  "type": "object",
+  "required": ["id", "idea_id", "paper_ids", "dimensions"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^COMP-[0-9]{4}$"
+    },
+    "idea_id": {
+      "type": "string"
+    },
+    "paper_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "observations"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "observations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["paper_id", "summary"],
+              "additionalProperties": false,
+              "properties": {
+                "paper_id": { "type": "string" },
+                "summary": { "type": "string" },
+                "strength": {
+                  "type": "string",
+                  "enum": ["unknown", "weak", "medium", "strong"],
+                  "default": "unknown"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "gaps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "opportunities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "recommendation": {
+      "type": "string",
+      "enum": ["continue", "pause", "reject", "gather_evidence"],
+      "default": "gather_evidence"
+    }
+  }
+}
