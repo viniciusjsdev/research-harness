@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/research-harness/role_contract.schema.json",
+  "title": "RoleContract",
+  "type": "object",
+  "required": [
+    "role",
+    "purpose",
+    "required_input",
+    "required_output",
+    "evidence_requirements",
+    "failure_modes",
+    "promotion_rules",
+    "next_role_trigger"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "Research Lead",
+        "Literature Scout",
+        "Methodology Reviewer",
+        "Devil's Advocate",
+        "Angel Advocate",
+        "Argument Arbiter",
+        "Evidence Auditor",
+        "Experiment Designer",
+        "Research Scribe"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "required_input": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "required_output": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "evidence_requirements": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "failure_modes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "promotion_rules": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "next_role_trigger": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    }
+  }
+}

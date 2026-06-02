@@ -1,0 +1,32 @@
+{
+  "run_id": "run-YYYYMMDD-HHMMSS",
+  "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "workspace": "D:/Projetos/Github_ViniciusJ/research-harness",
+  "operator": "Codex",
+  "hermes_session": {
+    "session_id": null,
+    "mode": "interactive | oneshot",
+    "model": null,
+    "provider": null
+  },
+  "purpose": "TBD",
+  "roles": [
+    {
+      "step": 1,
+      "role": "Research Lead",
+      "profile_dir": "profiles/01_research_lead",
+      "input_dir": "profiles/01_research_lead/input",
+      "output_dir": "profiles/01_research_lead/output",
+      "artifacts_dir": "profiles/01_research_lead/artifacts",
+      "status": "planned | completed | skipped | failed"
+    }
+  ],
+  "artifacts_promoted": [
+    {
+      "source_file": "TBD",
+      "destination_file": "TBD",
+      "promotion_rationale": "TBD"
+    }
+  ],
+  "notes": []
+}

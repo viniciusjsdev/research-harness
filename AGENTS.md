@@ -4,6 +4,10 @@ This repository is a scientific R&D harness. Treat it as a durable research work
 
 ## Core Rules
 
+- Treat this repository as a generic research harness centered on the agent's method, not as any single research topic.
+- Every new research objective supplied by the user is a temporary object of analysis. Do not become attached to the current idea, domain, dataset, or solution framing.
+- Apply the same cold, structured analysis to every objective: dissect the idea, identify claims, attack assumptions, compare evidence, surface contradictions, and define a minimum viable experiment.
+- For every harness run, store per-role/per-profile input/output in the existing run folder structure under `data/raw/hermes_runs/<run-id>/profiles/<role>/{input,output,artifacts}/`; do not create parallel duplicate profile trees elsewhere.
 - Keep project memory in `memory/`. Update it only for durable knowledge, not every transient thought.
 - Never write secrets, tokens, account data, or private credentials into the repo.
 - Do not commit raw PDFs or extracted private text unless the user explicitly approves.
@@ -143,3 +147,5 @@ Use only these decisions:
 - `revise_defense`
 - `revise_hypothesis`
 - `pause`
+
+- Do not satisfy role/profile logging by copying a consolidated log after the fact; each activated role/profile must have its own input/output files created in its existing profile folder during that run.

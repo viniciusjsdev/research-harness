@@ -82,3 +82,38 @@ Consequences:
 - Use `Devil's Advocate` for the adversarial reviewer role.
 - Use `Argument Arbiter` for the gatekeeper that compares attack and defense.
 - Use `Search failure` for documented absence of adequate evidence.
+
+## DEC-0006: Keep The Harness Domain-Agnostic
+
+Date: 2026-06-02
+
+Decision:
+Treat each user-supplied research objective as a temporary object of analysis, not as the permanent identity of the repository.
+
+Rationale:
+The repository exists to let Hermes receive many different research ideas and dissect them with the same cold, structured method. Attaching the harness to one domain would bias later analyses and weaken the role-based review loop.
+
+Consequences:
+
+- `AGENTS.md` carries the operating contract for any Hermes instance launched in this repository.
+- `memory/research_profile.md` records the stable project identity as domain-agnostic.
+- Domain-specific conclusions belong in reports, hypothesis notes, reading logs, or decision entries only when they are durable and explicitly scoped.
+- Future Hermes sessions should not assume the current research idea is the main project.
+
+## DEC-0007: Version Role Input/Output Logs
+
+Date: 2026-06-02
+
+Decision:
+For each harness run, store the visible input and output of every activated role/profile under `data/raw/hermes_runs/<run-id>/profiles/<role>/{input,output,artifacts}/`.
+
+Rationale:
+The user needs role-level traces to analyze and improve Harness behavior across many research objectives. Without per-role input/output records, later review cannot distinguish whether failures came from the initial framing, a specific role prompt, weak evidence, poor arbitration, or final synthesis.
+
+Consequences:
+
+- Each run should create or update one run directory in `data/raw/hermes_runs/`.
+- Each activated role/profile should have its own `input/`, `output/`, and `artifacts/` subdirectories.
+- Role outputs should preserve `Evidence`, `Inference`, `Assumption`, and `Open question` labels when they appear.
+- If a role was used only implicitly or retrospectively, its profile output must say so instead of pretending an exact transcript exists.
+- Final reports in `reports/` may summarize results, but `data/raw/hermes_runs/` is the audit trail for Harness behavior.

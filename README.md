@@ -39,6 +39,15 @@ data/        Generated search and extraction data. Ignored by default.
 tests/       Future tests for scripts and schema validation.
 ```
 
+Hermes input/output traces should be stored by run under
+`data/raw/hermes_runs/` using the convention in
+[docs/hermes_run_logging.md](docs/hermes_run_logging.md). Raw traces stay
+ignored by Git; only reviewed artifacts are promoted to `reports/`, `memory/`,
+`skills/`, `prompts/`, or `schemas/`.
+
+Role-specific input/output contracts are defined in
+[docs/role_contracts.md](docs/role_contracts.md).
+
 ## What Gets Versioned
 
 Commit durable, reviewable project assets:
@@ -139,12 +148,17 @@ Extract text from PDFs:
 python scripts/ingest_pdf.py papers/inbox --out data/processed/pdf_text
 ```
 
-## Hermes Usage Later
+## Hermes Runtime Setup
+
+Hermes Agent is the intended runtime/orchestrator, but it should stay outside
+this repository. For Windows machines where drive C should be avoided, install
+Hermes on drive D and set `HERMES_HOME` / `HERMES_INSTALL_DIR` as described in
+[docs/runtime_requirements.md](docs/runtime_requirements.md).
 
 After Hermes is installed and authenticated, run it from the repository root:
 
 ```powershell
-cd path\to\research-harness
+cd D:\Projetos\Github_ViniciusJ\research-harness
 hermes
 ```
 

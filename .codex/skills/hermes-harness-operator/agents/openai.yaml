@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Harness Operator"
+  short_description: "Operate Hermes inside this research harness reliably."
+  default_prompt: "Use Hermes inside the research-harness workspace, report failures, and only implement files when explicitly asked."

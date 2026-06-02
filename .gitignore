@@ -33,6 +33,11 @@ papers/processed/*
 # Generated data snapshots
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/hermes_runs/
+data/raw/hermes_runs/*
+!data/raw/hermes_runs/.gitkeep
+!data/raw/hermes_runs/_template/
+!data/raw/hermes_runs/_template/**
 data/processed/*
 !data/processed/.gitkeep
 
