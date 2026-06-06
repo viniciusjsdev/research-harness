@@ -19,6 +19,78 @@
       "output_dir": "profiles/01_research_lead/output",
       "artifacts_dir": "profiles/01_research_lead/artifacts",
       "status": "planned"
+    },
+    {
+      "step": 2,
+      "role": "Literature Scout",
+      "profile_dir": "profiles/02_literature_scout",
+      "input_dir": "profiles/02_literature_scout/input",
+      "output_dir": "profiles/02_literature_scout/output",
+      "artifacts_dir": "profiles/02_literature_scout/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 3,
+      "role": "Methodology Reviewer",
+      "profile_dir": "profiles/03_methodology_reviewer",
+      "input_dir": "profiles/03_methodology_reviewer/input",
+      "output_dir": "profiles/03_methodology_reviewer/output",
+      "artifacts_dir": "profiles/03_methodology_reviewer/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 4,
+      "role": "Devil's Advocate",
+      "profile_dir": "profiles/04_devils_advocate",
+      "input_dir": "profiles/04_devils_advocate/input",
+      "output_dir": "profiles/04_devils_advocate/output",
+      "artifacts_dir": "profiles/04_devils_advocate/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 5,
+      "role": "Angel Advocate",
+      "profile_dir": "profiles/05_angel_advocate",
+      "input_dir": "profiles/05_angel_advocate/input",
+      "output_dir": "profiles/05_angel_advocate/output",
+      "artifacts_dir": "profiles/05_angel_advocate/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 6,
+      "role": "Argument Arbiter",
+      "profile_dir": "profiles/06_argument_arbiter",
+      "input_dir": "profiles/06_argument_arbiter/input",
+      "output_dir": "profiles/06_argument_arbiter/output",
+      "artifacts_dir": "profiles/06_argument_arbiter/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 7,
+      "role": "Evidence Auditor",
+      "profile_dir": "profiles/07_evidence_auditor",
+      "input_dir": "profiles/07_evidence_auditor/input",
+      "output_dir": "profiles/07_evidence_auditor/output",
+      "artifacts_dir": "profiles/07_evidence_auditor/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 8,
+      "role": "Experiment Designer",
+      "profile_dir": "profiles/08_experiment_designer",
+      "input_dir": "profiles/08_experiment_designer/input",
+      "output_dir": "profiles/08_experiment_designer/output",
+      "artifacts_dir": "profiles/08_experiment_designer/artifacts",
+      "status": "planned"
+    },
+    {
+      "step": 9,
+      "role": "Research Scribe",
+      "profile_dir": "profiles/09_research_scribe",
+      "input_dir": "profiles/09_research_scribe/input",
+      "output_dir": "profiles/09_research_scribe/output",
+      "artifacts_dir": "profiles/09_research_scribe/artifacts",
+      "status": "planned"
     }
   ],
   "artifacts_promoted": [],
