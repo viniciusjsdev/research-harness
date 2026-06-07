@@ -119,17 +119,15 @@ def search_openalex(query: str, limit: int) -> list[PaperRecord]:
         doi = item.get("doi")
         if isinstance(doi, str) and doi.startswith("https://doi.org/"):
             doi = doi.removeprefix("https://doi.org/")
+        primary_location = item.get("primary_location") or {}
+        source = primary_location.get("source") or {}
         records.append(
             PaperRecord(
                 source="openalex",
                 title=clean_text(item.get("display_name")) or "",
                 authors=authors,
                 year=item.get("publication_year"),
-                venue=clean_text(
-                    (item.get("primary_location") or {})
-                    .get("source", {})
-                    .get("display_name")
-                ),
+                venue=clean_text(source.get("display_name")),
                 doi=doi,
                 url=item.get("id") or item.get("landing_page_url"),
                 abstract=reconstruct_openalex_abstract(

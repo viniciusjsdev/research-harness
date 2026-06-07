@@ -1,0 +1,125 @@
+{
+  "run_id": "run-20260607-200637-fine-tuning-vs-harness-industrial-financial",
+  "created_at": "2026-06-07T20:06:37Z",
+  "workspace": "/mnt/d/Projetos/Github_ViniciusJ/research-harness",
+  "operator": "Codex",
+  "hermes_session": {
+    "session_id": null,
+    "mode": "oneshot",
+    "model": "gpt-5.5",
+    "provider": "openai-codex"
+  },
+  "purpose": "Full Hermes validation run for Fine-Tuning versus Harness in financial-industrial cross-domain correlation research",
+  "roles": [
+    {
+      "step": 1,
+      "role": "Research Lead",
+      "profile_dir": "profiles/01_research_lead",
+      "input_dir": "profiles/01_research_lead/input",
+      "output_dir": "profiles/01_research_lead/output",
+      "artifacts_dir": "profiles/01_research_lead/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 2,
+      "role": "Literature Scout",
+      "profile_dir": "profiles/02_literature_scout",
+      "input_dir": "profiles/02_literature_scout/input",
+      "output_dir": "profiles/02_literature_scout/output",
+      "artifacts_dir": "profiles/02_literature_scout/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 3,
+      "role": "Methodology Reviewer",
+      "profile_dir": "profiles/03_methodology_reviewer",
+      "input_dir": "profiles/03_methodology_reviewer/input",
+      "output_dir": "profiles/03_methodology_reviewer/output",
+      "artifacts_dir": "profiles/03_methodology_reviewer/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 4,
+      "role": "Devil's Advocate",
+      "profile_dir": "profiles/04_devils_advocate",
+      "input_dir": "profiles/04_devils_advocate/input",
+      "output_dir": "profiles/04_devils_advocate/output",
+      "artifacts_dir": "profiles/04_devils_advocate/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 5,
+      "role": "Angel Advocate",
+      "profile_dir": "profiles/05_angel_advocate",
+      "input_dir": "profiles/05_angel_advocate/input",
+      "output_dir": "profiles/05_angel_advocate/output",
+      "artifacts_dir": "profiles/05_angel_advocate/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 6,
+      "role": "Argument Arbiter",
+      "profile_dir": "profiles/06_argument_arbiter",
+      "input_dir": "profiles/06_argument_arbiter/input",
+      "output_dir": "profiles/06_argument_arbiter/output",
+      "artifacts_dir": "profiles/06_argument_arbiter/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 7,
+      "role": "Evidence Auditor",
+      "profile_dir": "profiles/07_evidence_auditor",
+      "input_dir": "profiles/07_evidence_auditor/input",
+      "output_dir": "profiles/07_evidence_auditor/output",
+      "artifacts_dir": "profiles/07_evidence_auditor/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 8,
+      "role": "Experiment Designer",
+      "profile_dir": "profiles/08_experiment_designer",
+      "input_dir": "profiles/08_experiment_designer/input",
+      "output_dir": "profiles/08_experiment_designer/output",
+      "artifacts_dir": "profiles/08_experiment_designer/artifacts",
+      "status": "completed"
+    },
+    {
+      "step": 9,
+      "role": "Research Scribe",
+      "profile_dir": "profiles/09_research_scribe",
+      "input_dir": "profiles/09_research_scribe/input",
+      "output_dir": "profiles/09_research_scribe/output",
+      "artifacts_dir": "profiles/09_research_scribe/artifacts",
+      "status": "completed"
+    }
+  ],
+  "artifacts_promoted": [
+    {
+      "source_file": "profiles/09_research_scribe/output/response.md",
+      "destination_file": "memory/hypotheses.md",
+      "promotion_rationale": "Curated revised hypothesis framing only; no superiority claim."
+    },
+    {
+      "source_file": "profiles/09_research_scribe/output/response.md",
+      "destination_file": "memory/decisions.md",
+      "promotion_rationale": "Durable run decision: revise_hypothesis."
+    },
+    {
+      "source_file": "profiles/09_research_scribe/output/response.md",
+      "destination_file": "memory/claims.md",
+      "promotion_rationale": "Durable claim-status boundaries to prevent overclaiming."
+    },
+    {
+      "source_file": "profiles/09_research_scribe/output/response.md",
+      "destination_file": "memory/concepts.md",
+      "promotion_rationale": "Durable concept distinction between Harness and Fine-Tuning."
+    }
+  ],
+  "notes": [
+    "Codex operator used HERMES_HOME=/mnt/c/Hermes/.hermes to match the authenticated local Hermes configuration.",
+    "Research Lead completed with no artifact promotion.",
+    "Codex fixed a narrow OpenAlex parsing issue in scripts/search_literature.py after a source:null result caused the Literature Scout artifact search to fail.",
+    "Final run decision: revise_hypothesis.",
+    "Promotions are limited to curated memory updates; no empirical superiority, novelty, or performance claims are promoted."
+  ]
+}

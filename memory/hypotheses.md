@@ -62,3 +62,39 @@ Next actions:
 - Construir dataset sintético mínimo com gabarito calculável.
 - Comparar LLM zero-shot, RAG simples, LLM+SQL, BI/regra determinística e Harness completo.
 
+## HYP-0003: Harness como Camada Metodológica para Correlação Financeiro-Industrial
+
+Status: revise_hypothesis
+
+Idea:
+Avaliar Harness como camada metodológica auditável para exploração, validação e documentação de correlações entre bases financeiras e industriais. Fine-tuning não deve ser tratado como alternativa direta ao Harness; deve ser avaliado apenas como componente auxiliar para subtarefas rotuladas, como extração de variáveis, normalização semântica, text-to-SQL ou classificação de eventos.
+
+Research question:
+Um Harness com recuperação controlada, consultas estruturadas, ferramentas estatísticas, logs, validação temporal e revisão humana melhora a auditabilidade e a disciplina metodológica de uma investigação de correlações financeiro-industriais quando comparado a um baseline estatístico/BI sem LLM?
+
+Current evidence status:
+
+- Evidence: a run Hermes completa em `data/raw/hermes_runs/run-20260607-200637-fine-tuning-vs-harness-industrial-financial/` decidiu `revise_hypothesis`.
+- Evidence: o Evidence Auditor classificou claims empíricos de superioridade como fracos ou não suportados.
+- Evidence: o Argument Arbiter rejeitou a formulação binária "Fine-Tuning versus Harness" como comparação direta.
+- Inference: a formulação revisada é mais defensável como hipótese metodológica exploratória.
+
+Initial assumptions:
+
+- O valor inicial do Harness está em auditabilidade, rastreabilidade, validação e controle metodológico, não em substituir estatística.
+- Correlação financeiro-industrial exige controles contra leakage temporal, drift, múltiplas comparações e correlação espúria.
+- Fine-tuning só deve entrar no MVE se houver subtarefa supervisionada com dados rotulados suficientes.
+
+Open questions:
+
+- Quais bases financeiras e industriais públicas serão usadas no MVE?
+- Qual baseline estatístico/BI sem LLM será escolhido?
+- Como auditabilidade será medida quantitativamente?
+- Existe subtarefa rotulada que justifique fine-tuning nesta investigação?
+
+Next actions:
+
+- Selecionar um substrato público, sintético ou híbrido com séries financeiras e industriais alinháveis temporalmente.
+- Definir baseline estatístico/BI sem LLM.
+- Pré-registrar variáveis, lags, janelas e critérios de falsificação.
+- Medir validade estatística separadamente de auditabilidade.

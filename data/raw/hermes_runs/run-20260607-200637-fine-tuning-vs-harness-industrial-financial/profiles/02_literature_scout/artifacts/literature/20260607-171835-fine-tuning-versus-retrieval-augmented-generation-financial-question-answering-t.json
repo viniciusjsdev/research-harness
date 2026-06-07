@@ -1,0 +1,185 @@
+{
+  "query": "fine-tuning versus retrieval augmented generation financial question answering tabular data",
+  "created_at": "2026-06-07T20:18:35Z",
+  "count": 10,
+  "records": [
+    {
+      "source": "openalex",
+      "title": "Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation",
+      "authors": [
+        "Albert Gatt",
+        "Emiel Krahmer"
+      ],
+      "year": 2018,
+      "venue": "Journal of Artificial Intelligence Research",
+      "doi": "10.1613/jair.5477",
+      "url": "https://openalex.org/W2604799547",
+      "abstract": "This paper surveys the current state of the art in Natural Language Generation (NLG), defined as the task of generating text or speech from non-linguistic input. A survey of NLG is timely in view of the changes that the field has undergone over the past two decades, especially in relation to new (usually data-driven) methods, as well as new applications of NLG technology. This survey therefore aims to (a) give an up-to-date synthesis of research on the core tasks in NLG and the architectures adopted in which such tasks are organised; (b) highlight a number of recent research topics that have arisen partly as a result of growing synergies between NLG and other areas of artificial intelligence; (c) draw attention to the challenges in NLG evaluation, relating them to similar challenges faced in other areas of NLP, with an emphasis on different evaluation methods and the relationships between them.",
+      "source_id": "https://openalex.org/W2604799547",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "A Survey on the Explainability of Supervised Machine Learning",
+      "authors": [
+        "Nadia Burkart",
+        "Marco F. Huber"
+      ],
+      "year": 2021,
+      "venue": "Journal of Artificial Intelligence Research",
+      "doi": "10.1613/jair.1.12228",
+      "url": "https://openalex.org/W3101981467",
+      "abstract": "Predictions obtained by, e.g., artificial neural networks have a high accuracy but humans often perceive the models as black boxes. Insights about the decision making are mostly opaque for humans. Particularly understanding the decision making in highly sensitive areas such as healthcare or finance, is of paramount importance. The decision-making behind the black boxes requires it to be more transparent, accountable, and understandable for humans. This survey paper provides essential definitions, an overview of the different principles and methodologies of explainable Supervised Machine Learning (SML). We conduct a state-of-the-art survey that reviews past and recent explainable SML approaches and classifies them according to the introduced definitions. Finally, we illustrate principles by means of an explanatory case study and discuss important future directions.",
+      "source_id": "https://openalex.org/W3101981467",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+      "authors": [
+        "Pranab Sahoo",
+        "Ayush Singh",
+        "Sriparna Saha",
+        "Vinija Jain",
+        "Samrat Mondal",
+        "Aman Chadha"
+      ],
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2402.07927",
+      "url": "https://openalex.org/W4391833078",
+      "abstract": "Prompt engineering has emerged as an indispensable technique for extending the capabilities of large language models (LLMs) and vision-language models (VLMs). This approach leverages task-specific instructions, known as prompts, to enhance model efficacy without modifying the core model parameters. Rather than updating the model parameters, prompts allow seamless integration of pre-trained models into downstream tasks by eliciting desired model behaviors solely based on the given prompt. Prompts can be natural language instructions that provide context to guide the model or learned vector representations that activate relevant knowledge. This burgeoning field has enabled success across various applications, from question-answering to commonsense reasoning. However, there remains a lack of systematic organization and understanding of the diverse prompt engineering methods and techniques. This survey paper addresses the gap by providing a structured overview of recent advancements in prompt engineering, categorized by application area. For each prompting approach, we provide a summary detailing the prompting methodology, its applications, the models involved, and the datasets utilized. We also delve into the strengths and limitations of each approach and include a taxonomy diagram and table summarizing datasets, models, and critical points of each prompting technique. This systematic analysis enables a better understanding of this rapidly developing field and facilitates future research by illuminating open challenges and opportunities for prompt engineering.",
+      "source_id": "https://openalex.org/W4391833078",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Development and validation of an autonomous artificial intelligence agent for clinical decision-making in oncology",
+      "authors": [
+        "Dyke Ferber",
+        "Omar S. M. El Nahhas",
+        "Georg Wölflein",
+        "Isabella C. Wiest",
+        "Jan Clusmann",
+        "Marie-Elisabeth Leßmann",
+        "Sebastian Foersch",
+        "Jacqueline Lammert",
+        "Maximilian Tschochohei",
+        "Dirk Jaeger",
+        "Manuel Salto‐Tellez",
+        "Nikolaus Schultz",
+        "Daniel Truhn",
+        "Jakob Nikolas Kather"
+      ],
+      "year": 2025,
+      "venue": "Nature Cancer",
+      "doi": "10.1038/s43018-025-00991-6",
+      "url": "https://openalex.org/W4411100445",
+      "abstract": "Clinical decision-making in oncology is complex, requiring the integration of multimodal data and multidomain expertise. We developed and evaluated an autonomous clinical artificial intelligence (AI) agent leveraging GPT-4 with multimodal precision oncology tools to support personalized clinical decision-making. The system incorporates vision transformers for detecting microsatellite instability and KRAS and BRAF mutations from histopathology slides, MedSAM for radiological image segmentation and web-based search tools such as OncoKB, PubMed and Google. Evaluated on 20 realistic multimodal patient cases, the AI agent autonomously used appropriate tools with 87.5% accuracy, reached correct clinical conclusions in 91.0% of cases and accurately cited relevant oncology guidelines 75.5% of the time. Compared to GPT-4 alone, the integrated AI agent drastically improved decision-making accuracy from 30.3% to 87.2%. These findings demonstrate that integrating language models with precision oncology and search tools substantially enhances clinical accuracy, establishing a robust foundation for deploying AI-driven personalized oncology support systems.",
+      "source_id": "https://openalex.org/W4411100445",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Generative Pre-Trained Transformer (GPT) in Research: A Systematic Review on Data Augmentation",
+      "authors": [
+        "Fahim Sufi"
+      ],
+      "year": 2024,
+      "venue": "Information",
+      "doi": "10.3390/info15020099",
+      "url": "https://openalex.org/W4391679299",
+      "abstract": "GPT (Generative Pre-trained Transformer) represents advanced language models that have significantly reshaped the academic writing landscape. These sophisticated language models offer invaluable support throughout all phases of research work, facilitating idea generation, enhancing drafting processes, and overcoming challenges like writer’s block. Their capabilities extend beyond conventional applications, contributing to critical analysis, data augmentation, and research design, thereby elevating the efficiency and quality of scholarly endeavors. Strategically narrowing its focus, this review explores alternative dimensions of GPT and LLM applications, specifically data augmentation and the generation of synthetic data for research. Employing a meticulous examination of 412 scholarly works, it distills a selection of 77 contributions addressing three critical research questions: (1) GPT on Generating Research data, (2) GPT on Data Analysis, and (3) GPT on Research Design. The systematic literature review adeptly highlights the central focus on data augmentation, encapsulating 48 pertinent scholarly contributions, and extends to the proactive role of GPT in critical analysis of research data and shaping research design. Pioneering a comprehensive classification framework for “GPT’s use on Research Data”, the study classifies existing literature into six categories and 14 sub-categories, providing profound insights into the multifaceted applications of GPT in research data. This study meticulously compares 54 pieces of literature, evaluating research domains, methodologies, and advantages and disadvantages, providing scholars with profound insights crucial for the seamless integration of GPT across diverse phases of their scholarly pursuits.",
+      "source_id": "https://openalex.org/W4391679299",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "MUST-RAG: MUSical Text Question Answering with Retrieval Augmented Generation",
+      "authors": [
+        "Daeyong Kwon",
+        "SeungHeon Doh",
+        "Juhan Nam"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2507.23334v2",
+      "abstract": "Recent advancements in Large language models (LLMs) have demonstrated remarkable capabilities across diverse domains. While they exhibit strong zero-shot performance on various tasks, LLMs' effectiveness in music-related applications remains limited due to the relatively small proportion of music-specific knowledge in their training data. To address this limitation, we propose MusT-RAG, a comprehensive framework based on Retrieval Augmented Generation (RAG) to adapt general-purpose LLMs for text-only music question answering (MQA) tasks. RAG is a technique that provides external knowledge to LLMs by retrieving relevant context information when generating answers to questions. To optimize RAG for the music domain, we (1) propose MusWikiDB, a music-specialized vector database for the retrieval stage, and (2) utilizes context information during both inference and fine-tuning processes to effectively transform general-purpose LLMs into music-specific models. Our experiment demonstrates that MusT-RAG significantly outperforms traditional fine-tuning approaches in enhancing LLMs' music domain adaptation capabilities, showing consistent improvements across both in-domain and out-of-domain MQA benchmarks. Additionally, our MusWikiDB proves substantially more effective than general Wikipedia corpora, delivering superior performance and computational efficiency.",
+      "source_id": "http://arxiv.org/abs/2507.23334v2",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "An Exploration of Data Augmentation and Sampling Techniques for Domain-Agnostic Question Answering",
+      "authors": [
+        "Shayne Longpre",
+        "Yi Lu",
+        "Zhucheng Tu",
+        "Chris DuBois"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/1912.02145v1",
+      "abstract": "To produce a domain-agnostic question answering model for the Machine Reading Question Answering (MRQA) 2019 Shared Task, we investigate the relative benefits of large pre-trained language models, various data sampling strategies, as well as query and context paraphrases generated by back-translation. We find a simple negative sampling technique to be particularly effective, even though it is typically used for datasets that include unanswerable questions, such as SQuAD 2.0. When applied in conjunction with per-domain sampling, our XLNet (Yang et al., 2019)-based submission achieved the second best Exact Match and F1 in the MRQA leaderboard competition.",
+      "source_id": "http://arxiv.org/abs/1912.02145v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Tree of Reviews: A Tree-based Dynamic Iterative Retrieval Framework for Multi-hop Question Answering",
+      "authors": [
+        "Li Jiapeng",
+        "Liu Runze",
+        "Li Yabo",
+        "Zhou Tong",
+        "Li Mingling",
+        "Chen Xiang"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2404.14464v1",
+      "abstract": "Multi-hop question answering is a knowledge-intensive complex problem. Large Language Models (LLMs) use their Chain of Thoughts (CoT) capability to reason complex problems step by step, and retrieval-augmentation can effectively alleviate factual errors caused by outdated and unknown knowledge in LLMs. Recent works have introduced retrieval-augmentation in the CoT reasoning to solve multi-hop question answering. However, these chain methods have the following problems: 1) Retrieved irrelevant paragraphs may mislead the reasoning; 2) An error in the chain structure may lead to a cascade of errors. In this paper, we propose a dynamic retrieval framework called Tree of Reviews (ToR), where the root node is the question, and the other nodes are paragraphs from retrieval, extending different reasoning paths from the root node to other nodes. Our framework dynamically decides to initiate a new search, reject, or accept based on the paragraphs on the reasoning paths. Compared to related work, we introduce a tree structure to handle each retrieved paragraph separately, alleviating the misleading effect of irrelevant paragraphs on the reasoning path; the diversity of reasoning path extension reduces the impact of a single reasoning error on the whole. We conducted experiments on three different multi-hop question answering datasets. The results show that compared to the baseline methods, ToR achieves state-of-the-art performance in both retrieval and response generation. In addition, we propose two tree-based search optimization strategies, pruning and effective expansion, to reduce time overhead and increase the diversity of path extension. We will release our code.",
+      "source_id": "http://arxiv.org/abs/2404.14464v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Optimizing Retrieval Strategies for Financial Question Answering Documents in Retrieval-Augmented Generation Systems",
+      "authors": [
+        "Sejong Kim",
+        "Hyunseo Song",
+        "Hyunwoo Seo",
+        "Hyunjun Kim"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2503.15191v1",
+      "abstract": "Retrieval-Augmented Generation (RAG) has emerged as a promising framework to mitigate hallucinations in Large Language Models (LLMs), yet its overall performance is dependent on the underlying retrieval system. In the finance domain, documents such as 10-K reports pose distinct challenges due to domain-specific vocabulary and multi-hierarchical tabular data. In this work, we introduce an efficient, end-to-end RAG pipeline that enhances retrieval for financial documents through a three-phase approach: pre-retrieval, retrieval, and post-retrieval. In the pre-retrieval phase, various query and corpus preprocessing techniques are employed to enrich input data. During the retrieval phase, we fine-tuned state-of-the-art (SOTA) embedding models with domain-specific knowledge and implemented a hybrid retrieval strategy that combines dense and sparse representations. Finally, the post-retrieval phase leverages Direct Preference Optimization (DPO) training and document selection methods to further refine the results. Evaluations on seven financial question answering datasets-FinDER, FinQABench, FinanceBench, TATQA, FinQA, ConvFinQA, and MultiHiertt-demonstrate substantial improvements in retrieval performance, leading to more accurate and contextually appropriate generation. These findings highlight the critical role of tailored retrieval techniques in advancing the effectiveness of RAG systems for financial applications. A fully replicable pipeline is available on GitHub: https://github.com/seohyunwoo-0407/GAR.",
+      "source_id": "http://arxiv.org/abs/2503.15191v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Generating Answer Candidates for Quizzes and Answer-Aware Question Generators",
+      "authors": [
+        "Kristiyan Vachev",
+        "Momchil Hardalov",
+        "Georgi Karadzhov",
+        "Georgi Georgiev",
+        "Ivan Koychev",
+        "Preslav Nakov"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2108.12898v1",
+      "abstract": "In education, open-ended quiz questions have become an important tool for assessing the knowledge of students. Yet, manually preparing such questions is a tedious task, and thus automatic question generation has been proposed as a possible alternative. So far, the vast majority of research has focused on generating the question text, relying on question answering datasets with readily picked answers, and the problem of how to come up with answer candidates in the first place has been largely ignored. Here, we aim to bridge this gap. In particular, we propose a model that can generate a specified number of answer candidates for a given passage of text, which can then be used by instructors to write questions manually or can be passed as an input to automatic answer-aware question generators. Our experiments show that our proposed answer candidate generation model outperforms several baselines.",
+      "source_id": "http://arxiv.org/abs/2108.12898v1",
+      "relevance_confidence": "medium"
+    }
+  ]
+}

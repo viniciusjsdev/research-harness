@@ -100,8 +100,26 @@ cd D:\Projetos\Github_ViniciusJ\research-harness
 hermes
 ```
 
+From WSL, the equivalent launch path is:
+
+```bash
+cd /mnt/d/Projetos/Github_ViniciusJ/research-harness
+hermes
+```
+
+For a quick non-interactive access check:
+
+```bash
+cd /mnt/d/Projetos/Github_ViniciusJ/research-harness
+hermes --version
+hermes status
+```
+
 Hermes should read `AGENTS.md`, use the prompts and schemas in this repository,
-and keep runtime state in `HERMES_HOME`, not in the repository.
+and keep runtime state in `HERMES_HOME`, not in the repository. If `hermes`
+opens but `hermes --oneshot` or chat fails with "No inference provider
+configured", run `hermes setup` or `hermes model` and configure the provider
+outside this repository.
 
 ## References
 

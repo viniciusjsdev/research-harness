@@ -1,0 +1,211 @@
+{
+  "query": "LLM agents tool use data analysis text-to-SQL business intelligence benchmark",
+  "created_at": "2026-06-07T20:18:35Z",
+  "count": 10,
+  "records": [
+    {
+      "source": "openalex",
+      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "authors": [
+        "Zhiheng Xi",
+        "Wen-Xiang Chen",
+        "Xin Guo",
+        "Wei He",
+        "Yiwen Ding",
+        "Boyang Hong",
+        "Ming Zhang",
+        "Junzhe Wang",
+        "Senjie Jin",
+        "Enyu Zhou",
+        "Rui Zheng",
+        "Xiaoran Fan",
+        "Xiao Wang",
+        "Limao Xiong",
+        "Yuhao Zhou",
+        "Weiran Wang",
+        "Changhao Jiang",
+        "Yicheng Zou",
+        "Xiangyang Liu",
+        "Zhangyue Yin",
+        "Shihan Dou",
+        "Rongxiang Weng",
+        "Wensen Cheng",
+        "Qi Zhang",
+        "Wenjuan Qin",
+        "Yongyan Zheng",
+        "Xipeng Qiu",
+        "Huang, Xuanjing",
+        "Tao Gui"
+      ],
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2309.07864",
+      "url": "https://openalex.org/W4386794445",
+      "abstract": "For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the community lacks is a general and powerful model to serve as a starting point for designing AI agents that can adapt to diverse scenarios. Due to the versatile capabilities they demonstrate, large language models (LLMs) are regarded as potential sparks for Artificial General Intelligence (AGI), offering hope for building general AI agents. Many researchers have leveraged LLMs as the foundation to build AI agents and have achieved significant progress. In this paper, we perform a comprehensive survey on LLM-based agents. We start by tracing the concept of agents from its philosophical origins to its development in AI, and explain why LLMs are suitable foundations for agents. Building upon this, we present a general framework for LLM-based agents, comprising three main components: brain, perception, and action, and the framework can be tailored for different applications. Subsequently, we explore the extensive applications of LLM-based agents in three aspects: single-agent scenarios, multi-agent scenarios, and human-agent cooperation. Following this, we delve into agent societies, exploring the behavior and personality of LLM-based agents, the social phenomena that emerge from an agent society, and the insights they offer for human society. Finally, we discuss several key topics and open problems within the field. A repository for the related papers at https://github.com/WooooDyy/LLM-Agent-Paper-List.",
+      "source_id": "https://openalex.org/W4386794445",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "AI deception: A survey of examples, risks, and potential solutions",
+      "authors": [
+        "Peter S. Park",
+        "Simon Goldstein",
+        "Aidan O’Gara",
+        "Michael Chen",
+        "Dan Hendrycks"
+      ],
+      "year": 2024,
+      "venue": "Patterns",
+      "doi": "10.1016/j.patter.2024.100988",
+      "url": "https://openalex.org/W4396796749",
+      "abstract": "This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the truth. We first survey empirical examples of AI deception, discussing both special-use AI systems (including Meta's CICERO) and general-purpose AI systems (including large language models). Next, we detail several risks from AI deception, such as fraud, election tampering, and losing control of AI. Finally, we outline several potential solutions: first, regulatory frameworks should subject AI systems that are capable of deception to robust risk-assessment requirements; second, policymakers should implement bot-or-not laws; and finally, policymakers should prioritize the funding of relevant research, including tools to detect AI deception and to make AI systems less deceptive. Policymakers, researchers, and the broader public should work proactively to prevent AI deception from destabilizing the shared foundations of our society.",
+      "source_id": "https://openalex.org/W4396796749",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "When LLMs meet cybersecurity: a systematic literature review",
+      "authors": [
+        "Jie Zhang",
+        "H. Bu",
+        "Hui Wen",
+        "Yongji Liu",
+        "Haiqiang Fei",
+        "Rongrong Xi",
+        "Lun Li",
+        "Yun Yang",
+        "Hongsong Zhu",
+        "Dan Meng"
+      ],
+      "year": 2025,
+      "venue": "Cybersecurity",
+      "doi": "10.1186/s42400-025-00361-w",
+      "url": "https://openalex.org/W4407163436",
+      "abstract": "Abstract The rapid development of large language models (LLMs) has opened new avenues across various fields, including cybersecurity, which faces an evolving threat landscape and demand for innovative technologies. Despite initial explorations into the application of LLMs in cybersecurity, there is a lack of a comprehensive overview of this research area. This paper addresses this gap by providing a systematic literature review, covering the analysis of over 300 works, encompassing 25 LLMs and more than 10 downstream scenarios. Our comprehensive overview addresses three key research questions: the construction of cybersecurity-oriented LLMs, the application of LLMs to various cybersecurity tasks, the challenges and further research in this area. This study aims to shed light on the extensive potential of LLMs in enhancing cybersecurity practices and serve as a valuable resource for applying LLMs in this field. We also maintain and regularly update a list of practical guides on LLMs for cybersecurity at https://github.com/tmylla/Awesome-LLM4Cybersecurity .",
+      "source_id": "https://openalex.org/W4407163436",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Unleashing the potential of prompt engineering for large language models",
+      "authors": [
+        "B.‐C. CHEN",
+        "Zhaofeng Zhang",
+        "Nicolas Langrené",
+        "Shengxin Zhu"
+      ],
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2310.14735",
+      "url": "https://openalex.org/W4387929411",
+      "abstract": "This comprehensive review delves into the pivotal role of prompt engineering in unleashing the capabilities of Large Language Models (LLMs). The development of Artificial Intelligence (AI), from its inception in the 1950s to the emergence of advanced neural networks and deep learning architectures, has made a breakthrough in LLMs, with models such as GPT-4o and Claude-3, and in Vision-Language Models (VLMs), with models such as CLIP and ALIGN. Prompt engineering is the process of structuring inputs, which has emerged as a crucial technique to maximize the utility and accuracy of these models. This paper explores both foundational and advanced methodologies of prompt engineering, including techniques such as self-consistency, chain-of-thought, and generated knowledge, which significantly enhance model performance. Additionally, it examines the prompt method of VLMs through innovative approaches such as Context Optimization (CoOp), Conditional Context Optimization (CoCoOp), and Multimodal Prompt Learning (MaPLe). Critical to this discussion is the aspect of AI security, particularly adversarial attacks that exploit vulnerabilities in prompt engineering. Strategies to mitigate these risks and enhance model robustness are thoroughly reviewed. The evaluation of prompt methods is also addressed through both subjective and objective metrics, ensuring a robust analysis of their efficacy. This review also reflects the essential role of prompt engineering in advancing AI capabilities, providing a structured framework for future research and application.",
+      "source_id": "https://openalex.org/W4387929411",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+      "authors": [
+        "Ranjan Sapkota",
+        "Konstantinos I. Roumeliotis",
+        "Manoj Karkee"
+      ],
+      "year": 2025,
+      "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+      "doi": "10.70777/si.v2i3.15161",
+      "url": "https://openalex.org/W4412505619",
+      "abstract": "This review critically distinguishes between AI Agents and Agentic AI, offering a structured, conceptual taxonomy, application mapping, and analysis of opportunities and challenges to clarify their divergent design philosophies and capabilities. We begin by outlining the search strategy and foundational definitions, characterizing AI Agents as modular systems driven and enabled by LLMs and LIMs for taskspecific automation. Generative AI is positioned as a precursor providing the foundation, with AI agents advancing through tool integration, prompt engineering, and reasoning enhancements. We then characterize Agentic AI systems, which, in contrast to AI Agents, represent a paradigm shift marked by multi-agent collaboration, dynamic task decomposition, persistent memory, and coordinated autonomy. Through a chronological evaluation of architectural evolution, operational mechanisms, interaction styles, and autonomy levels, we present a comparative analysis across both AI agents and agentic AI paradigms. Application domains enabled by AI Agents such as customer support, scheduling, and data summarization are then contrasted with Agentic AI deployments in research automation, robotic coordination, and medical decision support. We further examine unique challenges in each paradigm including hallucination, brittleness, emergent behavior, and coordination failure, and propose targeted solutions such as ReAct loops, retrieval-augmented generation (RAG), automation coordination layers, and causal modeling. This work aims to provide a roadmap for developing robust, scalable, and explainable AI-driven systems.",
+      "source_id": "https://openalex.org/W4412505619",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Meta-aware Learning in text-to-SQL Large Language Model",
+      "authors": [
+        "Wenda Zhang"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2505.18929v1",
+      "abstract": "The advancements of Large language models (LLMs) have provided great opportunities to text-to-SQL tasks to overcome the main challenges to understand complex domain information and complex database structures in business applications. In this paper, we propose a meta-aware learning framework to integrate domain knowledge, database schema, chain-of-thought reasoning processes, and metadata relationships to improve the SQL generation quality. The proposed framework includes four learning strategies: schema-based learning, Chain-of-Thought (CoT) learning, knowledge-enhanced learning, and key information tokenization. This approach provides a comprehensive understanding of database structure and metadata information towards LLM through fine-tuning to improve its performance on SQL generation within business domains. Through two experimental studies, we have demonstrated the superiority of the proposed methods in execution accuracy, multi-task SQL generation capability, and reduction of catastrophic forgetting.",
+      "source_id": "http://arxiv.org/abs/2505.18929v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "SQLForge: Synthesizing Reliable and Diverse Data to Enhance Text-to-SQL Reasoning in LLMs",
+      "authors": [
+        "Yu Guo",
+        "Dong Jin",
+        "Shenghao Ye",
+        "Shuangwu Chen",
+        "Jian Yang",
+        "Xiaobin Tan"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": "10.18653/v1/2025.findings-acl.443",
+      "url": "http://arxiv.org/abs/2505.13725v1",
+      "abstract": "Large Language models (LLMs) have demonstrated significant potential in text-to-SQL reasoning tasks, yet a substantial performance gap persists between existing open-source models and their closed-source counterparts. In this paper, we introduce SQLForge, a novel approach for synthesizing reliable and diverse data to enhance text-to-SQL reasoning in LLMs. We improve data reliability through SQL syntax constraints and SQL-to-question reverse translation, ensuring data logic at both structural and semantic levels. We also propose an SQL template enrichment and iterative data domain exploration mechanism to boost data diversity. Building on the augmented data, we fine-tune a variety of open-source models with different architectures and parameter sizes, resulting in a family of models termed SQLForge-LM. SQLForge-LM achieves the state-of-the-art performance on the widely recognized Spider and BIRD benchmarks among the open-source models. Specifically, SQLForge-LM achieves EX accuracy of 85.7% on Spider Dev and 59.8% on BIRD Dev, significantly narrowing the performance gap with closed-source methods.",
+      "source_id": "http://arxiv.org/abs/2505.13725v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Business Logic-Driven Text-to-SQL Data Synthesis for Business Intelligence",
+      "authors": [
+        "Jinhui Liu",
+        "Ximeng Zhang",
+        "Yanbo Ai",
+        "Zhou Yu"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2601.14518v1",
+      "abstract": "Evaluating Text-to-SQL agents in private business intelligence (BI) settings is challenging due to the scarcity of realistic, domain-specific data. While synthetic evaluation data offers a scalable solution, existing generation methods fail to capture business realism--whether questions reflect realistic business logic and workflows. We propose a Business Logic-Driven Data Synthesis framework that generates data grounded in business personas, work scenarios, and workflows. In addition, we improve the data quality by imposing a business reasoning complexity control strategy that diversifies the analytical reasoning steps required to answer the questions. Experiments on a production-scale Salesforce database show that our synthesized data achieves high business realism (98.44%), substantially outperforming OmniSQL (+19.5%) and SQL-Factory (+54.7%), while maintaining strong question-SQL alignment (98.59%). Our synthetic data also reveals that state-of-the-art Text-to-SQL models still have significant performance gaps, achieving only 42.86% execution accuracy on the most complex business queries.",
+      "source_id": "http://arxiv.org/abs/2601.14518v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "RecoAtlas: From Semantic Plausibility to Set-Level Utility in LLM Recommendation Agents",
+      "authors": [
+        "Imad Aouali",
+        "Flavian Vasile",
+        "Otmane Sakhi",
+        "Alexandre Gilotte",
+        "Benjamin Heymann"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2605.18805v1",
+      "abstract": "LLM recommendation agents increasingly produce structured recommendation reports: sets of items accompanied by natural-language justifications. Yet existing evaluations often reduce this setting to reranking small shortlisted candidate sets or judge reports mainly by semantic plausibility. We introduce Recommendation Atlas (Agentic Tool-Level Assessment for Shopping), or RecoAtlas, a benchmark and toolkit for evaluating shopping agents with behavior-grounded metrics. RecoAtlas complements held-out interaction metrics with learned utility proxies for relevance, complementarity, and diversity derived from interaction data, while separately measuring semantic coherence and explanation quality. Its controlled tool environment exposes agents to either semantic, behavior-aligned, or faulty tools, enabling diagnosis of whether performance gains arise from stronger reasoning, better signals, or more effective tool-use policies. Across controlled experiments, we show that RecoAtlas exhibits key properties of a meaningful benchmark for agentic systems: performance scales with model capacity and test-time compute, improves with stronger and better-aligned tools, degrades under noisy or misaligned signals, and reveals that semantic plausibility does not necessarily capture behavior-grounded utility. RecoAtlas provides a foundation for developing and evaluating shopping assistants that optimize not only for plausible recommendations, but also for coherent, behaviorally grounded recommendation sets.",
+      "source_id": "http://arxiv.org/abs/2605.18805v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the Business Domain",
+      "authors": [
+        "Yue Li",
+        "Ran Tao",
+        "Derek Hommel",
+        "Yusuf Denizay Dönder",
+        "Sungyong Chang",
+        "David Mimno",
+        "Unso Eun Seo Jo"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2510.07309v4",
+      "abstract": "Text-to-SQL benchmarks have traditionally only tested simple data access as a translation task of natural language to SQL queries. But in reality, users tend to ask diverse questions that require more complex responses including data-driven predictions or recommendations. Using the business domain as a motivating example, we introduce CORGI, a new benchmark that expands text-to-SQL to reflect practical database queries encountered by end users. CORGI is composed of synthetic databases inspired by enterprises such as DoorDash, Airbnb, and Lululemon. It provides questions across four increasingly complicated categories of business queries: descriptive, explanatory, predictive, and recommendational. This challenge calls for causal reasoning, temporal forecasting, and strategic recommendation, reflecting multi-level and multi-step agentic intelligence. We find that LLM performance degrades on higher-level questions as question complexity increases. CORGI also introduces and encourages the text-to-SQL community to consider new automatic methods for evaluating open-ended, qualitative responses in data access tasks. Our experiments show that LLMs exhibit an average 33.12% lower success execution rate (SER) on CORGI compared to existing benchmarks such as BIRD, highlighting the substantially higher complexity of real-world business needs. We release the CORGI dataset, an evaluation framework, and a submission website to support future research.",
+      "source_id": "http://arxiv.org/abs/2510.07309v4",
+      "relevance_confidence": "medium"
+    }
+  ]
+}

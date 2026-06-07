@@ -162,4 +162,11 @@ cd D:\Projetos\Github_ViniciusJ\research-harness
 hermes
 ```
 
+Or from WSL:
+
+```bash
+cd /mnt/d/Projetos/Github_ViniciusJ/research-harness
+hermes
+```
+
 The agent should read `AGENTS.md`, use the prompts and schemas in this repo, and update the versioned memory files when a research decision becomes durable.

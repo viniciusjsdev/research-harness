@@ -117,3 +117,21 @@ Consequences:
 - Role outputs should preserve `Evidence`, `Inference`, `Assumption`, and `Open question` labels when they appear.
 - If a role was used only implicitly or retrospectively, its profile output must say so instead of pretending an exact transcript exists.
 - Final reports in `reports/` may summarize results, but `data/raw/hermes_runs/` is the audit trail for Harness behavior.
+
+## DEC-0008: Revise Fine-Tuning Versus Harness Framing
+
+Date: 2026-06-07
+
+Decision:
+Revise the research framing that compares Fine-Tuning and Harness for financial-industrial correlation analysis. Treat Harness as an auditable methodological layer and Fine-Tuning as a possible auxiliary component for labeled subtasks, not as a direct alternative to Harness.
+
+Rationale:
+The Hermes run `run-20260607-200637-fine-tuning-vs-harness-industrial-financial` reached `revise_hypothesis`. The Argument Arbiter found that the original framing compared non-equivalent categories. The Evidence Auditor found no support for superiority or novelty claims.
+
+Consequences:
+
+- Do not claim that Harness is superior to Fine-Tuning for this task without an experiment.
+- Do not claim novelty from the absence of direct papers in the searched artifacts.
+- Future work must include statistical/BI baselines without LLM.
+- Fine-Tuning should be evaluated only when a concrete labeled subtask exists.
+- Validity of correlations and auditability of workflow must be measured separately.

@@ -1,0 +1,180 @@
+{
+  "query": "industrial fault diagnosis financial impact machine learning dataset",
+  "created_at": "2026-06-07T20:18:35Z",
+  "count": 10,
+  "records": [
+    {
+      "source": "openalex",
+      "title": "The role of artificial intelligence in achieving the Sustainable Development Goals",
+      "authors": [
+        "Ricardo Vinuesa",
+        "Hossein Azizpour",
+        "Iolanda Leite",
+        "Madeline Balaam",
+        "Virginia Dignum",
+        "Sami Domisch",
+        "Anna Felländer",
+        "Simone D. Langhans",
+        "Max Tegmark",
+        "Francesco Fuso Nerini"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-019-14108-y",
+      "url": "https://openalex.org/W3000603264",
+      "abstract": "The emergence of artificial intelligence (AI) and its progressively wider impact on many sectors requires an assessment of its effect on the achievement of the Sustainable Development Goals. Using a consensus-based expert elicitation process, we find that AI can enable the accomplishment of 134 targets across all the goals, but it may also inhibit 59 targets. However, current research foci overlook important aspects. The fast development of AI needs to be supported by the necessary regulatory insight and oversight for AI-based technologies to enable sustainable development. Failure to do so could result in gaps in transparency, safety, and ethical standards.",
+      "source_id": "https://openalex.org/W3000603264",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions",
+      "authors": [
+        "Iqbal H. Sarker"
+      ],
+      "year": 2021,
+      "venue": "SN Computer Science",
+      "doi": "10.1007/s42979-021-00815-1",
+      "url": "https://openalex.org/W3194730353",
+      "abstract": null,
+      "source_id": "https://openalex.org/W3194730353",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "A survey on concept drift adaptation",
+      "authors": [
+        "João Gama",
+        "Indrė Žliobaitė",
+        "Albert Bifet",
+        "Mykola Pechenizkiy",
+        "Abdelhamid Bouchachia"
+      ],
+      "year": 2014,
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/2523813",
+      "url": "https://openalex.org/W2099419573",
+      "abstract": "Concept drift primarily refers to an online supervised learning scenario when the relation between the input data and the target variable changes over time. Assuming a general knowledge of supervised learning in this article, we characterize adaptive learning processes; categorize existing strategies for handling concept drift; overview the most representative, distinct, and popular techniques and algorithms; discuss evaluation methodology of adaptive algorithms; and present a set of illustrative applications. The survey covers the different facets of concept drift in an integrated way to reflect on the existing scattered state of the art. Thus, it aims at providing a comprehensive introduction to the concept drift adaptation for researchers, industry analysts, and practitioners.",
+      "source_id": "https://openalex.org/W2099419573",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Ensemble deep learning: A review",
+      "authors": [
+        "M. A. Ganaie",
+        "Minghui Hu",
+        "A. K. Malik",
+        "M. Tanveer",
+        "Ponnuthurai Nagaratnam Suganthan"
+      ],
+      "year": 2022,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "doi": "10.1016/j.engappai.2022.105151",
+      "url": "https://openalex.org/W3149839747",
+      "abstract": null,
+      "source_id": "https://openalex.org/W3149839747",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "openalex",
+      "title": "Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review",
+      "authors": [
+        "Ahmed G. Gad"
+      ],
+      "year": 2022,
+      "venue": "Archives of Computational Methods in Engineering",
+      "doi": "10.1007/s11831-021-09694-4",
+      "url": "https://openalex.org/W4224300633",
+      "abstract": "Abstract Throughout the centuries, nature has been a source of inspiration, with much still to learn from and discover about. Among many others, Swarm Intelligence (SI), a substantial branch of Artificial Intelligence, is built on the intelligent collective behavior of social swarms in nature. One of the most popular SI paradigms, the Particle Swarm Optimization algorithm (PSO), is presented in this work. Many changes have been made to PSO since its inception in the mid 1990s. Since their learning about the technique, researchers and practitioners have developed new applications, derived new versions, and published theoretical studies on the potential influence of various parameters and aspects of the algorithm. Various perspectives are surveyed in this paper on existing and ongoing research, including algorithm methods, diverse application domains, open issues, and future perspectives, based on the Systematic Review (SR) process. More specifically, this paper analyzes the existing research on methods and applications published between 2017 and 2019 in a technical taxonomy of the picked content, including hybridization, improvement, and variants of PSO, as well as real-world applications of the algorithm categorized into: health-care, environmental, industrial, commercial, smart city, and general aspects applications. Some technical characteristics, including accuracy, evaluation environments, and proposed case study are involved to investigate the effectiveness of different PSO methods and applications. Each addressed study has some valuable advantages and unavoidable drawbacks which are discussed and has accordingly yielded some hints presented for addressing the weaknesses of those studies and highlighting the open issues and future research perspectives on the algorithm.",
+      "source_id": "https://openalex.org/W4224300633",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+      "authors": [
+        "Cedric De Boom",
+        "Michael Reusens"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2306.04338v1",
+      "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics. This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse.",
+      "source_id": "http://arxiv.org/abs/2306.04338v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "DOME: Recommendations for supervised machine learning validation in biology",
+      "authors": [
+        "Ian Walsh",
+        "Dmytro Fishman",
+        "Dario Garcia-Gasulla",
+        "Tiina Titma",
+        "Gianluca Pollastri",
+        "The ELIXIR Machine Learning focus group",
+        "Jen Harrow",
+        "Fotis E. Psomopoulos",
+        "Silvio C. E. Tosatto"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/2006.16189v4",
+      "abstract": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+      "source_id": "http://arxiv.org/abs/2006.16189v4",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+      "authors": [
+        "Felix Mohr",
+        "Jan N. van Rijn"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": "10.1007/s10994-024-06619-7",
+      "url": "http://arxiv.org/abs/2201.12150v2",
+      "abstract": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of training iterations. Learning curves have important applications in several machine learning contexts, most notably in data acquisition, early stopping of model training, and model selection. For instance, learning curves can be used to model the performance of the combination of an algorithm and its hyperparameter configuration, providing insights into their potential suitability at an early stage and often expediting the algorithm selection process. Various learning curve models have been proposed to use learning curves for decision making. Some of these models answer the binary decision question of whether a given algorithm at a certain budget will outperform a certain reference performance, whereas more complex models predict the entire learning curve of an algorithm. We contribute a framework that categorises learning curve approaches using three criteria: the decision-making situation they address, the intrinsic learning curve question they answer and the type of resources they use. We survey papers from the literature and classify them into this framework.",
+      "source_id": "http://arxiv.org/abs/2201.12150v2",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Bearing fault diagnosis based on domain adaptation using transferable features under different working conditions",
+      "authors": [
+        "Zhe Tong",
+        "Wei Li",
+        "Bo Zhang",
+        "Meng Zhang"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "http://arxiv.org/abs/1806.01512v1",
+      "abstract": "Bearing failure is the most common failure mode in rotating machinery and can result in large financial losses or even casualties. However, complex structures around bearing and actual variable working conditions can lead to large distribution difference of vibration signal between a training set and a test set, which causes the accuracy-dropping problem of fault diagnosis. Thus, how to improve efficiently the performance of bearing fault diagnosis under different working conditions is always a primary challenge. In this paper, a novel bearing fault diagnosis under different working conditions method is proposed based on domain adaptation using transferable features(DATF). The dataset of normal bearing and faulty bearings are obtained through the fast Fourier transformation(FFT) of raw vibration signals under different motor speeds and load conditions. Then we reduce marginal and conditional distributions simultaneously across domains based on maximum mean discrepancy(MMD) in feature space by refining pseudo test labels, which can be obtained by the Nearest-Neighbor(NN) classifier built on training data, and then a robust transferable feature representation for training and test domains is achieved after several iterations. With the help of the NN classifier trained on transferable features, bearing fault categories are identified accurately in final. Extensive experiment results show that the proposed method under different working conditions can identify the bearing faults accurately and outperforms obviously competitive approaches.",
+      "source_id": "http://arxiv.org/abs/1806.01512v1",
+      "relevance_confidence": "medium"
+    },
+    {
+      "source": "arxiv",
+      "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+      "authors": [
+        "Alejandro Guerra-Manzanares",
+        "L. Julian Lechuga Lopez",
+        "Michail Maniatakos",
+        "Farah E. Shamout"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": "10.1007/978-3-031-39539-0_3",
+      "url": "http://arxiv.org/abs/2303.15563v1",
+      "abstract": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered along the entire ML pipeline, from model training to inference. In this paper, we conduct a review of recent literature concerning Privacy-Preserving Machine Learning (PPML) for healthcare. We primarily focus on privacy-preserving training and inference-as-a-service, and perform a comprehensive review of existing trends, identify challenges, and discuss opportunities for future research directions. The aim of this review is to guide the development of private and efficient ML models in healthcare, with the prospects of translating research efforts into real-world settings.",
+      "source_id": "http://arxiv.org/abs/2303.15563v1",
+      "relevance_confidence": "medium"
+    }
+  ]
+}
